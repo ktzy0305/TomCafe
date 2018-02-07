@@ -1,0 +1,48 @@
+﻿<Page
+    x:Class="TomCafe.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TomCafe"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid  Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="bundlesButton" Grid.RowSpan="2" Content="Bundle&#xa;Meals" Click="bundlesButton_Click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,10,10,10"/>
+        <Button Grid.Row="2" Grid.RowSpan="2" x:Name="mainsButton" Content="Value&#xa;Meals" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Margin="10,10,10,10" Click="mainsButton_Click"/>
+        <Button Grid.Row="4" Grid.RowSpan="2" x:Name="sidesButton" Content="Sides" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,10,10,10"  Click="sidesButton_Click"/>
+        <Button Grid.Row="6" Grid.RowSpan="2" x:Name="beveragesButton" Content="Beverages" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,10,10,10" Click="beveragesButton_Click"/>
+
+
+        <ListBox Grid.Column="1" Grid.ColumnSpan="3" Grid.RowSpan="7" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" x:Name="itemsListView" Margin="10,10,10,10" SelectionChanged="itemsListView_SelectionChanged" />
+
+        <Button Grid.Row="3" Grid.Column="4"  x:Name="orderButton" Content="Confirm Order" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="orderButton_Click"/>
+        <Button Grid.Row="7" Grid.Column="3" x:Name="addButton" Content="Add to Cart" Margin="10,10,10,10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="addButton_Click"/>
+        <ListBox Grid.Column="4" Grid.ColumnSpan="3" Grid.RowSpan="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" x:Name="cartsListView" Margin="10,10,10,10" SelectionChanged="cartsListView_SelectionChanged" />
+        <ScrollViewer Grid.Row="4" Grid.Column="4" Grid.RowSpan="4" Grid.ColumnSpan="3" >
+            <TextBlock  x:Name="displayText" Margin="10,10,10,10" TextWrapping="Wrap" Text="Choose your item" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" SelectionChanged="displayText_SelectionChanged" />
+        </ScrollViewer>
+        <Button x:Name="cancelButton" Content="Cancel" Grid.Column="5" Grid.Row="3" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="cancelButton_Click" />
+        <Button x:Name="removeButton" Content="Remove Item" Grid.Column="6" Grid.Row="3" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="removeButton_Click"/>
+    </Grid>
+</Page>

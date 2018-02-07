@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TomCafe", "TomCafe\TomCafe.csproj", "{FC07BDEB-DF92-4EAA-BFC1-132949E8AECA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC07BDEB-DF92-4EAA-BFC1-132949E8AECA}.Debug|ARM.ActiveCfg = Debug|ARM
+		{FC07BDEB-DF92-4EAA-BFC1-132949E8AECA}.Debug|ARM.Build.0 = Debug|ARM
+		{FC07BDEB-DF92-4EAA-BFC1-132949E8AECA}.Debug|ARM.Deploy.0 = Debug|ARM
+		{FC07BDEB-DF92-4EAA-BFC1-132949E8AECA}.Debug|x64.ActiveCfg = Debug|x64
+		{FC07BDEB-DF92-4EAA-BFC1-132949E8AECA}.Debug|x64.Build.0 = Debug|x64
+		{FC07BDEB-DF92-4EAA-BFC1-132949E8AECA}.Debug|x64.Deploy.0 = Debug|x64
+		{FC07BDEB-DF92-4EAA-BFC1-132949E8AECA}.Debug|x86.ActiveCfg = Debug|x86
+		{FC07BDEB-DF92-4EAA-BFC1-132949E8AECA}.Debug|x86.Build.0 = Debug|x86
+		{FC07BDEB-DF92-4EAA-BFC1-132949E8AECA}.Debug|x86.Deploy.0 = Debug|x86
+		{FC07BDEB-DF92-4EAA-BFC1-132949E8AECA}.Release|ARM.ActiveCfg = Release|ARM
+		{FC07BDEB-DF92-4EAA-BFC1-132949E8AECA}.Release|ARM.Build.0 = Release|ARM
+		{FC07BDEB-DF92-4EAA-BFC1-132949E8AECA}.Release|ARM.Deploy.0 = Release|ARM
+		{FC07BDEB-DF92-4EAA-BFC1-132949E8AECA}.Release|x64.ActiveCfg = Release|x64
+		{FC07BDEB-DF92-4EAA-BFC1-132949E8AECA}.Release|x64.Build.0 = Release|x64
+		{FC07BDEB-DF92-4EAA-BFC1-132949E8AECA}.Release|x64.Deploy.0 = Release|x64
+		{FC07BDEB-DF92-4EAA-BFC1-132949E8AECA}.Release|x86.ActiveCfg = Release|x86
+		{FC07BDEB-DF92-4EAA-BFC1-132949E8AECA}.Release|x86.Build.0 = Release|x86
+		{FC07BDEB-DF92-4EAA-BFC1-132949E8AECA}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9447E74C-F6D8-49E4-8C87-EC3BBD0470D4}
+	EndGlobalSection
+EndGlobal
